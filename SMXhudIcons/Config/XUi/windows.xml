@@ -1,0 +1,61 @@
+<configs>
+
+<!--	// MODLET:			SMXhudIcons
+
+		// EAC:				Friendly
+
+		// VERSION:			A17b199eR1
+
+		// BUILD:			A17b199
+
+		// DISCLAIMER:		Please be advised that this modlet is intended for use with the build mentioned above. That said it may very well be that
+							it can be used with other builds with little to no risk of failure. It all depends on the standard files being updated or not.
+
+		// MOD DESCRIPTION:	The purpose of this modlet is to add UNIT FRAME ICONS to the different STAT BARS for SMXhud.
+
+		// DEPENDENCIES:	SMXhud.
+
+		// TERMS OF USE:	You are allowed to use this modlet for your own personal use and/or distribute said modlet bundled with something of your own
+							creation as long as the files remain unaltered and you do not claim credit for its creation.
+							You are welcome to, but not required to, inform the author of this modlet should you wish to bundle and re-distribute said
+							modlet as described above.
+
+		// CREDITS:			Sirillion (author)
+-->
+
+
+<!--	// SMX // Stealth Bar -->
+
+		<append xpath="/windows/window[@name='SMXunitFrame']/rect[@name='SMXstatBars']/rect[@name='SMXstealthBar']">
+			<sprite name="Icon" depth="5" pos="240,5" size="28,28" atlas="{staticonatlas|once}" sprite="{staticon|once}" foregroundlayer="true" />
+		</append>
+
+
+<!--	// SMX // Health Bar -->
+
+		<append xpath="/windows/window[@name='SMXunitFrame']/rect[@name='SMXstatBars']/rect[@name='SMXhealthBar']">
+			<sprite name="Icon" depth="6" pos="240,-8" size="28,28" atlas="{staticonatlas|once}" sprite="{staticon|once}" foregroundlayer="true" />
+		</append>
+
+
+<!--	// SMX // Stamina Bar -->
+
+		<append xpath="/windows/window[@name='SMXunitFrame']/rect[@name='SMXstatBars']/rect[@name='SMXstaminaBar']">
+			<sprite name="Icon" depth="6" pos="240,-10" size="28,28" atlas="{staticonatlas|once}" sprite="ui_game_symbol_agility" foregroundlayer="true" />
+		</append>
+
+
+<!--	// SMX // Hunger Bar -->
+
+		<append xpath="/windows/window[@name='SMXunitFrame']/rect[@name='SMXwellnessBars']/rect[@name='SMXhungerBar']">
+			<sprite name="Icon" depth="6" pos="0,-65" size="18,18" atlas="{staticonatlas|once}" sprite="ui_game_symbol_fork" foregroundlayer="true" />
+		</append>
+
+
+<!--	// SMX // Thirst Bar -->
+
+		<append xpath="/windows/window[@name='SMXunitFrame']/rect[@name='SMXwellnessBars']/rect[@name='SMXthirstBar']">
+			<sprite name="Icon" depth="6" pos="0,-65" size="18,18" atlas="{staticonatlas|once}" sprite="ui_game_symbol_water" foregroundlayer="true" />
+		</append>
+
+</configs>
